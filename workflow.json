@@ -1,0 +1,1 @@
+{"name": "Signal Stories alert", "nodes": [{"name": "Schedule", "type": "n8n-nodes-base.scheduleTrigger"}, {"name": "Send story", "type": "n8n-nodes-base.executeCommand", "command": "python3 signal_story.py --sender +10000000000 --to +10000000001 --message \"homelab OK\" --story --dry-run"}]}
